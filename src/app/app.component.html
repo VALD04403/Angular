@@ -1,1 +1,10 @@
-<app-user-profile></app-user-profile>
+<app-menu></app-menu>
+<ul>
+	<li>
+		<a [routerLink]="['/sign-up']">Sign-up</a>
+	</li>
+	<li>
+		<a [routerLink]="['/user-profile']">User-profile</a>
+	</li>
+</ul>
+<router-outlet></router-outlet>
