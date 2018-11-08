@@ -1,0 +1,8 @@
+img {
+	width: 57%;
+	height: 60%
+}
+
+.wolf:hover .card-title-wolf{
+	font-size: 25px;
+}
