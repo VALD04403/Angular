@@ -8,6 +8,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MenuComponent } from './menu/menu.component';
 import { ROUTES } from './app.routes';
 import { HighlightDirective } from './highlight.directive';
+import { DisplayGuestsDirective } from './display-guests.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HighlightDirective } from './highlight.directive';
     SignUpComponent,
     UserProfileComponent,
     MenuComponent,
-    HighlightDirective
+    HighlightDirective,
+    DisplayGuestsDirective
   ],
   imports: [
     BrowserModule,
